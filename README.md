@@ -12,4 +12,4 @@ Alternative version of VideoGame1. When we write a ***pure virtual function***, 
 We want to built a calculator that can compare and add two numbers together. This calculator has to be able to perform with any kind of type that is comparable and additive. For this, we need to use ***class template***.
 
 ## Division
-The user wants to make a division. We have to make sure he doesn't divide by 0! For this, we need to implement an ***exception***.
+The user wants to make a division. We have to make sure he/she doesn't divide by 0! For this, we need to implement an ***exception***.
