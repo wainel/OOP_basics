@@ -3,9 +3,7 @@ using namespace std;
 
 class Enemy{
 public:
-    virtual void attack(){
-        cout << "I am an enemy" << endl;
-    }
+    virtual void attack()=0;
 };
 
 
