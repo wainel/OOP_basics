@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 int main()
 {
     try{
@@ -23,7 +21,4 @@ int main()
     }catch(int x){
         cout << "You can't divide by " << x << endl;
     }
-
-
-
 }
