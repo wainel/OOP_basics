@@ -4,11 +4,11 @@
 using namespace std;
 
 void calc_LIS(vector<int>& D){
-    vector< vector<int> > L(D.size()); // the longest increasing subsequence ends with D[i]
+    vector< vector<int> > L(D.size()); 
     L[0].push_back(D[0]);
 
-    for(int i=1; i<D.size(); i++){
-        for(int j=0; j<i; j++){
+    for(int i=1; i<D.size(); i++){  //N
+        for(int j=0; j<i; j++){     //N
             if( (D[j] < D[i]) && (L[i].size() < L[j].size()+1) ){L[i]=L[j];}
         }
         L[i].push_back(D[i]);
@@ -25,3 +25,4 @@ int main()
 
     calc_LIS(arr);
 }
+// The complexity of this algorithm is O(N**2)
