@@ -50,3 +50,6 @@ CS of length 1: {A} {C} {G}<br>
 CS of length 2: {AC} {CC} {CG} {AG}<br>
 CS of length 3: {CCG}<br>
 We know a DNA sequence can be express as a string of characters 'A', 'C', 'G' and 'T'. So by finding the LCS of 2 strings of DNA, we can see how similar these 2 strings of DNA are, therefore tell whether these 2 persons are related or not.<br>
+X and Y are 2 vectors of size N and M.<br>
+Define:<br>
+C[i][j]
