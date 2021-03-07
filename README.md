@@ -13,3 +13,6 @@ We want to built a calculator that can compare and add two numbers together. Thi
 
 ## Division
 The user wants to make a division. We have to make sure he/she doesn't divide by 0! For this, we need to implement an ***exception***.
+
+## Struct_VS_Class
+What is the difference between ***struct*** and ***class*** in C++ ?
