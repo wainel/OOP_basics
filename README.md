@@ -29,3 +29,12 @@ for(int i=N, i>0, i--){<br>
 }<br>
 The problem is the worst case complexity of this algorithm is: O(2^N). This complexity is exponential in N: not acceptable. We have to find a better algorithm.<br>
 I solve this problem with ***Dynamic Programming*** and implement it in C++.
+
+## LongestCommonSubsequence
+We have two strings X and Y and want to find their longest common subsequence. It doesn't have to be consecutive.<br>
+X = ACCG<br>
+Y = CCAGCA<br>
+CS of length 1: {A} {C} {G}<br>
+CS of length 2: {AC} {CC} {CG} {AG}<br>
+CS of length 3: {CCG}<br>
+We know a DNA sequence can be express as a string of characters 'A', 'C', 'G' and 'T'. So by finding the LCS of 2 strings of DNA, we can see how similar these 2 strings of DNA are, therefore tell whether these 2 persons are related or not.<br>
