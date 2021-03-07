@@ -33,6 +33,14 @@ Define vector L:<br>
 L[0] = {D[0]}<br>
 L[i] - A vector, LIS of D that ends with D[i]<br>
 
+L[0]: 3<br>
+L[1]: 2<br>
+L[2]: 2,6<br>
+L|3]: 2,4<br>
+L[4]: 2,4,5<br>
+L[5]: 1<br>
+
+L[i] = MAX(L[j] | j<i, D[j]<D[i]) + "D[i]"
 
 ## LongestCommonSubsequence
 We have two strings X and Y and want to find their longest common subsequence. It doesn't have to be consecutive.<br>
