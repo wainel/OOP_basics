@@ -28,7 +28,11 @@ for(int i=N, i>0, i--){<br>
 ........break;<br>
 }<br>
 The problem is the worst case complexity of this algorithm is: O(2^N). This complexity is exponential in N: not acceptable. We have to find a better algorithm.<br>
-I solve this problem with ***Dynamic Programming*** and implement it in C++.
+I solve this problem with ***Dynamic Programming*** and implement it in C++:<br>
+Define vector L:<br>
+L[0] = {D[0]}<br>
+L[i] - A vector, LIS of D that ends with D[i]<br>
+
 
 ## LongestCommonSubsequence
 We have two strings X and Y and want to find their longest common subsequence. It doesn't have to be consecutive.<br>
