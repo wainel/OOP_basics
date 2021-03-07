@@ -27,4 +27,4 @@ for(int i=N, i>0, i--){<br>
     if(there is one inscreasing subsequence)<br>
         break;<br>
 }<br>
-The problem is the worst case complexity of this algorithm is: $\sum_{i = N}^{1} $
+The problem is the worst case complexity of this algorithm is: $$\sum_{i = N}^{1} $$
