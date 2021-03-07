@@ -27,4 +27,5 @@ for(int i=N, i>0, i--){<br>
     if(there is one inscreasing subsequence)<br>
         break;<br>
 }<br>
-The problem is the worst case complexity of this algorithm is: O(2^N).<br>
+The problem is the worst case complexity of this algorithm is: O(2^N). This complexity is exponential in N: not acceptable. We have to find a better algorithm.<br>
+I solve this problem with ***Dynamic Programming*** and implement it in C++.
