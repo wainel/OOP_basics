@@ -52,4 +52,8 @@ CS of length 3: {CCG}<br>
 We know a DNA sequence can be express as a string of characters 'A', 'C', 'G' and 'T'. So by finding the LCS of 2 strings of DNA, we can see how similar these 2 strings of DNA are, therefore tell whether these 2 persons are related or not.<br>
 X and Y are 2 vectors of size N and M.<br>
 Define:<br>
-C[i][j]
+C[i][j] -- Length of LCS of sequence X[1..i] and Y[1..j]<br>
+Thus: C[i][0] == 0 for all i, C[0][j] == 0 for all j<br>
+Goal: Find C[N][M]<br>
+
+C[i][j] = C[i-1][j-1]+1 if X[i] == Y[i] and C[i][j] = MAX(C[i-1][j], C[i][j-1]) if X[i] != Y[j]<br>
