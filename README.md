@@ -19,6 +19,6 @@ What is the difference between ***struct*** and ***class*** in C++ ?
 
 
 ## LongestIncreasingSubsequence
-The set {3, 2, 6, 4, 5, 1} has the inscreasing subsequence: {3,6}, {2,6}, {2,4,5} and {1}.
-
+The set {3, 2, 6, 4, 5, 1} has the inscreasing subsequence: {3,6}, {2,6}, {2,4,5} and {1}.<br>
 Our problem is: for a vector D of size N, find its longest increasing subsequence.
+
